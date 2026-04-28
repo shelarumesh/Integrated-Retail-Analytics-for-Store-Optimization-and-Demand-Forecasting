@@ -58,14 +58,17 @@ $$RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}$$
 
 ## 📂 Repository Structure
 ```text
-├── Data/               # Raw and Cleaned Datasets
+├── Data/ 
+├    ├──  sales.csv
+├    ├── Store.csv
+├    ├── Featuresdata.csv
+├                 # Raw and Cleaned Datasets
 ├── Notebooks/          # Step-by-step Implementation
 │   ├── 01_EDA.ipynb
-│   ├── 02_Clustering.ipynb
-│   ├── 03_MBA.ipynb
-│   └── 04_Forecasting.ipynb
+│   ├── 02_ML_RetailAnalysis.ipynb
 ├── README.md           # Project Documentation
 └── requirements.txt    # Library Dependencies
+└── ProjectOverview
 ```
 
 ---
